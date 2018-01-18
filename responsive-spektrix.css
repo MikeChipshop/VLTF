@@ -1,0 +1,192 @@
+@font-face {
+  font-family:'jaapokki';
+  src: url('https://system.spektrix.com/vaultfestival/resources/jaapokki-regular.eot'); /* IE9 Compat Modes */
+  src: url('https://system.spektrix.com/vaultfestival/resources/jaapokki-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://system.spektrix.com/vaultfestival/resources/jaapokki-regular.woff') format('woff'), /* Modern Browsers */
+       url('https://system.spektrix.com/vaultfestival/resources/jaapokki-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('https://system.spektrix.com/vaultfestival/resources/jaapokki-regular.svg#svgjaapokki') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family:'jaapokki-subtract';
+  src: url('https://system.spektrix.com/vaultfestival/resources/jaapokkisubtract-regular.eot'); /* IE9 Compat Modes */
+  src: url('https://system.spektrix.com/vaultfestival/resources/jaapokkisubtract-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://system.spektrix.com/vaultfestival/resources/jaapokkisubtract-regular.woff') format('woff'), /* Modern Browsers */
+       url('https://system.spektrix.com/vaultfestival/resources/jaapokkisubtract-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('https://system.spektrix.com/vaultfestival/resources/jaapokkisubtract-regular.svg#svgjaapokkisubtract') format('svg'); /* Legacy iOS */
+}
+
+.SpektrixPage {padding-bottom:.1em;}
+.cta, input[type=submit] {font-size:1em;}
+h1 {font-family:'jaapokki';}
+h3 {font-size:2em;margin:1em 0 .3em;}
+#aspnetForm ~ br, .SpektrixFooter {display:none!important;}
+.DatesAndTimesHeading, #ctl00_ContentPlaceHolder_ChooseSeatsHeadingWikiTextViewer h1, .Basket2 h1.BasketHeading {font-size:6em;font-family:'jaapokki';margin-top:.5em;letter-spacing:0;position:relative;z-index:2;max-width:10em;margin-left:0;overflow:hidden;margin-bottom:0;}
+.Buttons a + a {margin-left:.5em;}
+.Savings {margin-bottom:1em;}
+.Savings h2 {display:none;}
+.DetailsEditor {margin-bottom:1em;}
+h2 {font-size:2em;text-transform:uppercase;font-weight:500;letter-spacing:.08em;font-family:inherit;margin-bottom:.4em;}
+.Savings a {pointer-events:none;color:#222;font-weight:700;text-decoration:none;}
+dl.Items .Header {display:none;}
+dd.Item.Instance {margin-top:1em;}
+dd.Item.Instance + dt.Item.Instance {padding-top:2em;margin-top:2em;border-top:1px solid rgba(0,0,0,0.1)}
+dt.Footer {font-size:2em;font-family:'jaapokki';text-transform:uppercase;margin:1em 0 .4em;}
+.Breakdown .Label, .SummarySection .Summary {display:inline-block;min-width:9em;font-weight:700;}
+.SummarySection tr + tr td {padding-top:.4em;}
+.Breakdown li + li {margin-top:.4em;}
+.Item.Instance .ViewDetails {display:none;}
+.Item.Instance > span {font-size:2em;font-family:'jaapokki';}
+.Item.Instance .Buttons {margin-top:1.5em;}
+.Item.Instance .Buttons input, .Checkout .AddressList li input[type=submit] {padding:0;border:none;background:none!important;color:#e40346;}
+.Checkout .AddressList li input[type=submit] {margin-top:1em;}
+.Item.Instance .Buttons input:hover, .Checkout .AddressList li input[type=submit]:hover {color:#e40346;text-decoration:underline;}
+.Item.Instance .Buttons input + input {margin-left:.5em;}
+.Details .InstanceDate {font-size:1.2em;margin:.3em 0 .1em;text-transform:uppercase;display:block;}
+.EventDates select, .EventDates input[type=submit] {height:2.8em;font-size:15px;}
+.EventDates input {margin-left:1em;}
+.LinkList li {display:inline-block;}
+.LinkList li a {text-decoration:none;margin-right:.4em;margin-bottom:.5em;display:inline-block;padding:.65em 1em .4em;line-height:1em;text-decoration:none;text-align:center;background-position:center;background-repeat:no-repeat;background-size:1.8em;white-space:nowrap;cursor:pointer;background:none;border:3px solid #222;text-transform:uppercase;font-weight:500;color:#222;font-family:'jaapokki';text-decoration:none!important;font-size:.9em;
+transition: all .3s ease;
+-moz-transition: all .3s ease;
+-webkit-transition: all .3s ease;
+-o-transition: all .3s ease;}
+.LinkList li a:hover {background:#222;color:#fff;}
+.TicketType input[type=tel] {width:3em;margin:0 .5em;}
+.Event.EventDetails {color:transparent;}
+.EventName {font-family:'jaapokki';font-size:1.75em;display:inline-block;}
+.Event.EventDetails span {color:#333;}
+.Event.EventDetails span.DateAndTime {display:block;font-size:1.2em;margin-top:.5em;text-transform:uppercase;}
+.Buttons {margin-top:1em;}
+.InstanceCalendar {margin:1.5em 0;width:17em;}
+.DropDownCalendar .DropDownSection, .DropDownCalendar .DropDownSection .TitleArea {width:17em;}
+.DropDownCalendar .DropDownSection .CalendarViewport table td.NoShows {opacity:.5;}
+.DropDownCalendar .DropDownSection .CalendarViewport table td.DateCell.SeatsAvailableNotOnline {text-decoration:none;}
+.DropDownCalendar .DropDownSection .AdditionalInfoArea .ExpandingArea .Title {font-weight:500;margin:.4em 0;font-size:.9em;}
+.DropDownCalendar .DropDownSection .AdditionalInfoArea .ExpandingArea .Perfomance .Button {border-radius:0;padding:.65em 1em .4em;line-height:1em;text-decoration:none;text-align:center;border:3px solid #e40346;text-transform:uppercase;font-weight:500;color:#222;font-family:'jaapokki';background-color:transparent;}
+.DropDownCalendar .DropDownSection .AdditionalInfoArea .ExpandingArea .Perfomance .Button:hover {background-color:#e40346;color:#fff;}
+.DropDownCalendar .DropDownSection .AdditionalInfoArea .ExpandingArea .Perfomance .BookingInfo {display:block;width:100%;color:#999;text-decoration:none;margin-top:.5em;padding:0;font-size:.9em;}
+.DropDownCalendar .DropDownSection .CalendarViewport .MonthsGrid table td, .DropDownCalendar .DropDownSection .CalendarViewport .YearsGrid table td {font-weight:500;font-family:'jaapokki';font-size:1.2em;text-transform:uppercase;padding-top:7px;}
+.DropDownCalendar .DropDownSection .TitleArea .CalendarTitleSpan {font-weight:500;font-size:1em;}
+
+#ctl00_ContentPlaceHolder_CheckoutNowLink {display:block;margin:1em 0;}
+#ctl00_ContentPlaceHolder_PromoCodeBox_PromoCodeTextBox {margin-left:1em;}
+
+.Tickets .Event_Summary {font-weight:700;}
+.TermsAndConditions label div {display:inline-block;}
+
+.Memberships .Membership {margin-top:3em;line-height:1.4em;}
+.Memberships .Membership .Details ul {padding:0;list-style-type:none;color:#999;margin-top:1.2em;}
+.Memberships .Header {margin-bottom:2em;}
+.Memberships .Header h1 + span {display:none;}
+.Memberships .LoginForRenewalMessage {line-height:1.4em;}
+
+.Container {clear:both;}
+.Progress, .Options {margin:.2em 0 1.2em;}
+.Progress a, .Options a {text-decoration:none!important;}
+.Options a {color:#222;}
+.Progress a .Done {color:rgba(0,0,0,0.5);}
+.Progress ol li, .Options li, .Options div {display:inline-block;}
+.Options ul > * + * {margin-left:.75em;}
+.Progress ol li + li:before {margin:0 .4em;content:">";color:#999;}
+.Progress ol li span.Current, .Options a.Selected {font-weight:700;color:#e40346;}
+.Container span.Comment {display:block;margin-top:.8em;color:rgba(0,0,0,0.5);}
+
+.MyAccountHeading + .Buttons {margin:0 0 1.2em;}
+
+.Addresses .AddressOption {margin-top:.4em;}
+.DeliveryOptions .DeliveryOption {margin-top:.3em;}
+.Checkout .AddressList {margin-bottom:2em;}
+.Checkout .AddressList li {padding-left:1.5em;position:relative;padding-top:1.5em;margin-top:1.5em;border-top:1px solid rgba(0,0,0,0.1);}
+.Checkout .AddressList li input[type=radio] {position:absolute;left:0;margin:.2em 0 0;top:1.5em;}
+.Checkout .AddressList li label {line-height:1.2em;cursor:pointer;}
+/*.Checkout .AddressList li input[type=submit] {position:absolute;right:0;bottom:0;margin:0;font-size:.9em;}*/
+
+.LoginForm .Container, .ForgotPassword .Container, .View .Container, .EditAddress .Container {margin-bottom:1em;}
+.View .Container, .Container.DonationAmount, .EditAddress .Container, .DetailsEditor .Container, .ChangePassword .Container {margin-top:1em;}
+.ChangePassword .Container label.left {min-width:12em;}
+.ChangePassword #Buttons {margin-top:1em;}
+.Container label.left {display:inline-block;min-width:8em;float:left;line-height:2.3em;}
+.Container input[type=text], .Container input[type=password] {height:2.3em;}
+.ForgotPassword .Container label.left {min-width:11em;}
+.View .Container label.left {min-width:9em;}
+#ctl00_ContentPlaceHolder_AccountDetailsEditor_DateOfBirth_YearBox {width:4em !important;}
+.Container label.right, .required-prompt {font-size:.9em;color:rgba(0,0,0,0.5);margin-left:.5em;}
+.NewAccount .Container input, .NewAccount .Container select {font-size:1em;}
+
+.LoginForm + .Buttons {margin-bottom:2em;}
+.LoginForm ~ .Account_Link {padding-top:1.5em;margin-top:1.5em;border-top:1px solid rgba(0,0,0,0.1);max-width:none;}
+.LoginForm ~ .Account_Link + .Account_Link {padding-top:0;border-top:none;margin-top:.4em;}
+.LoginLogout a, .TermsAndConditions a, .DetailsEditor + a {color:#e40346;text-decoration:none;}
+.LoginLogout a:hover, .DetailsEditor + a:hover {text-decoration:underline;}
+.TermsAndConditions input {margin:0 0 0 .2em;vertical-align:middle;}
+.TermsAndConditions {margin-top:1em;}
+.RedeemVoucherInformation {margin-bottom:.5em;}
+.PaymentView .Total {font-weight:700;}
+
+.ErrorMessage {margin:1em 0;font-weight:700;color:#e40346;}
+.ValidationError {color:#e40346!important;font-size:.8em;display:block;}
+
+p + p, ul + p, p + ul {margin-top:1em;}
+
+@media (min-width:1393px) {
+
+body {font-size:17px;}
+	
+}
+
+@media (max-width:1122px){
+/* ~= 1250px */
+body {font-size:14px;}
+
+}
+
+@media (max-width:980px){
+/* hard set 1120px */
+.DatesAndTimesHeading, #ctl00_ContentPlaceHolder_ChooseSeatsHeadingWikiTextViewer h1, h1.BasketHeading  {font-size:5em;}
+
+}
+
+@media (max-width:800px){
+/* ~= 900px */
+.DatesAndTimesHeading, #ctl00_ContentPlaceHolder_ChooseSeatsHeadingWikiTextViewer h1, h1.BasketHeading  {font-size:4.2em;line-height:1.1em;margin-top:.75em;}
+
+}
+
+@media (max-width:739px){
+/* ~= 820px */
+body {font-size:13px;}
+
+}
+
+@media (max-width:619px){
+/* ~= 700px */
+.DatesAndTimesHeading, #ctl00_ContentPlaceHolder_ChooseSeatsHeadingWikiTextViewer h1, h1.BasketHeading  {font-size:3.6em;margin-top:1em;}
+
+}
+
+/*
+@media screen and (min-width:780px){
+	
+body {font-size:17px;}
+	
+}
+
+@media screen and (min-width:820px){
+	
+body {font-size:18px;}
+	
+}
+
+@media screen and (max-width:690px){
+	
+body {font-size:15px;}
+	
+}
+
+@media screen and (max-width:630px){
+	
+body {font-size:14px;}
+
+}
+*/
